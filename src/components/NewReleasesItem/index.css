@@ -1,0 +1,31 @@
+.new-item-failure-page {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  background: #181818;
+  color: white;
+  background: #181818;
+  overflow: hidden;
+}
+
+.new-item-failure-container {
+  width: 95vw;
+  height: 100vh;
+  border-radius: 8px;
+  background: #040306;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+@media (max-width: 560px) {
+  .new-item-failure-page {
+        width: 100vw;
+  }
+  .new-item-failure-container {
+    width: 290px;
+  }
+}

@@ -1,0 +1,17 @@
+.home-page-loading {
+  width: 100vw;
+  height: 100vh;
+
+  background: #181818;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 560px) {
+  .home-page-loading {
+    width: 100vw;
+    height: 100vh;
+  }
+}

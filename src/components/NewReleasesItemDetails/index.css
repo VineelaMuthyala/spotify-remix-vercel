@@ -1,0 +1,168 @@
+.new-item-page {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 100vh;
+  background: #181818;
+  color: white;
+  overflow: hidden;
+}
+.new-item-container {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  background: #181818;
+}
+
+.newreleases-item-container {
+  width: 90vw;
+  height: 85vh;
+  border-radius: 8px;
+  background: #040306;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-top: 50px;
+  padding-left: 50px;
+  margin-left: 30px;
+}
+
+.newreleases-image {
+  width: 400px;
+  height: 500px;
+}
+.newreleases-text-container {
+  background-color: rgb(122, 117, 117);
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.newreleases-text {
+  text-align: center;
+  margin: 0px;
+}
+.newreleases-image-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-left: 100px;
+}
+.like-1-container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 10px;
+  width: 500px;
+}
+.like-2-container {
+  display: flex;
+  flex-direction: row;
+}
+.like-text-1 {
+  margin-top: 5px;
+  margin-left: 10px;
+}
+.like-icon {
+  width: 25px;
+  height: 25px;
+  color: green;
+}
+.like-text-2 {
+  font-size: 10px;
+}
+.music-container {
+  background-color: white;
+  color: brown;
+  font-weight: 700;
+  border-radius: 10px;
+  width: 500px;
+  height: 70px;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.musical-note-text {
+  margin-top: 15px;
+  margin-left: 10px;
+}
+.musical-note {
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+}
+.music-container {
+  display: flex;
+  flex-direction: row;
+}
+
+@media (max-width: 560px) {
+  .new-item-page {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+    background: #181818;
+    color: white;
+    overflow: hidden;
+  }
+  .new-item-container {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    background: #181818;
+  }
+  .newreleases-item-container {
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+    padding-left: 0px;
+    margin-left: 0px;
+    padding-top: 0px;
+  }
+  .newreleases-image {
+    width: 250px;
+    height: 300px;
+  }
+  .newreleases-text-container {
+    width: 250px;
+  }
+  .newreleases-text {
+    width: 200px;
+  }
+  .newreleases-image-text {
+    width: 300px;
+    padding-left: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0px;
+  }
+  .music-container {
+    width: 250px;
+    height: 40px;
+  }
+  .like-1-container {
+    width: 250px;
+  }
+  .like-2-container {
+    height: 25px;
+  }
+  .n-name {
+    font-size: 20px;
+  }
+}

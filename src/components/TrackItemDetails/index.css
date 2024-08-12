@@ -1,0 +1,164 @@
+.track-item-details-container {
+  min-width: 1300px;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+}
+.serial-no-box {
+  width: 80px;
+  padding-left: 32px;
+}
+.item-serial-no {
+  margin-left: 32px;
+  display: flex;
+}
+.box {
+  display: flex;
+}
+.item-name-box {
+  width: 25vw;
+}
+.item-name {
+  width: 108px;
+  height: 24px;
+  font-family: Assistant;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+}
+.item-album-box {
+  display: flex;
+  justify-content: flex-start;
+
+  width: 18vw;
+}
+.item-album {
+  width: 17px;
+  height: 24px;
+  font-family: Assistant;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+}
+.item-duration-box {
+  width: 18vw;
+}
+.item-duration {
+  height: 24px;
+  font-family: Assistant;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+}
+.item-artists-box {
+  width: 18vw;
+}
+.item-artists {
+  height: 24px;
+  font-family: Assistant;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+}
+.item-added-at-box {
+  width: 18vw;
+}
+.item-added-at {
+  width: 91px;
+  height: 24px;
+  font-family: Assistant;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+}
+.selected {
+  background-color: gray;
+}
+.item-artists-box-small {
+  display: none;
+}
+@media (max-width: 560px) {
+  .track-item-details-container {
+    width: 100vw;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+  }
+  .serial-no-box {
+    display: none;
+    width: 80px;
+  }
+  .item-serial-no {
+    display: none;
+  }
+
+  .item-name-box {
+    width: 250px;
+    height: 25px;
+    font-family: Assistant;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    overflow: hidden;
+  }
+  .item-name {
+    display: none;
+  }
+  .item-album-box {
+    display: none;
+  }
+  .item-album {
+    display: none;
+  }
+  .item-duration-box {
+    width: 220px;
+    height: 30px;
+    margin-left: 10px;
+    color: rgb(183, 171, 171);
+  }
+  .item-duration {
+    height: 24px;
+    font-family: Assistant;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+  }
+  .item-artists-box {
+    display: none;
+  }
+  .item-artists {
+    display: none;
+  }
+  .name-artists-container {
+    display: flex;
+    flex-direction: column;
+    height: 60px;
+  }
+  .item-artists-box-small {
+    display: flex;
+
+    font-family: Assistant;
+    font-size: 10px;
+    font-weight: 600;
+    color: rgb(183, 171, 171);
+
+    text-align: left;
+    width: 200px;
+  }
+  .item-added-at-box {
+    display: none;
+  }
+  .item-added-at {
+    display: none;
+  }
+}

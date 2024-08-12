@@ -1,0 +1,170 @@
+.body-container {
+  height: 700px;
+  width: 100vw;
+}
+.track-cover-container {
+  display: flex;
+  flex-direction: row;
+  padding-left: 32px;
+}
+
+.track-cover-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-left: 20px;
+}
+.track-cover-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 8px;
+}
+.track-cover-text-title {
+  width: 95px;
+  height: 21px;
+  font-family: Assistant;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20.93px;
+  text-align: left;
+  margin-bottom: 0px;
+}
+.track-cover-text {
+  width: 95px;
+  height: 21px;
+  font-family: Assistant;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20.93px;
+  text-align: left;
+  margin-bottom: 0px;
+}
+
+.track-cover-heading {
+  margin: 0px;
+  width: 621px;
+  line-height: 60px;
+  height: 40px;
+  font-family: Assistant;
+  font-size: 25px;
+  font-weight: 600;
+
+  text-align: left;
+}
+.track-table-titles-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 32px;
+  width: 100vw;
+  margin-left: 89px;
+}
+.table-tracks {
+  width: 24vw;
+}
+.table-album {
+  width: 18vw;
+}
+.table-time {
+  width: 18vw;
+}
+.table-artist {
+  width: 17vw;
+}
+.table-added {
+  width: 18vw;
+}
+.line {
+  width: 90vw;
+  height: 0px;
+  border: 1px solid #475569;
+  margin-left: 40px;
+  margin-right: 10px;
+}
+.tracks-items-container {
+  display: flex;
+  height: 420px;
+  width: 100vw;
+
+  flex-wrap: wrap;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+@media (max-width: 560px) {
+  .body-container {
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .track-cover-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .track-cover-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    padding: 0px;
+  }
+  .track-cover-text-title {
+    display: none;
+  }
+  .track-cover-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+  }
+  .track-cover-text {
+    text-align: center;
+    margin-top: 10px;
+  }
+  .track-cover-heading {
+    margin: 0px;
+    width: 200px;
+    height: 35px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px;
+  }
+  .track-table-titles-container {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 300px;
+  }
+  .table-tracks {
+    display: none;
+  }
+  .table-album {
+    display: none;
+  }
+  .table-time {
+    display: none;
+  }
+  .table-artist {
+    display: none;
+  }
+  .table-added {
+    display: none;
+  }
+  .line {
+    width: 330px;
+  }
+  .tracks-items-container {
+    display: flex;
+    height: 100vh;
+    width: 300px;
+
+    font-size: 12px;
+  }
+}

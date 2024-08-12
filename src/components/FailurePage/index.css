@@ -1,0 +1,74 @@
+.failure-container {
+  width: 231px;
+  height: 500px;
+  top: 974px;
+  left: 622px;
+  gap: 16px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.error-icon-container {
+  width: 48px;
+  height: 48px;
+}
+.error-icon {
+  width: 48px;
+  height: 48px;
+  color: #1db954;
+}
+.error-text {
+  width: 251px;
+  height: 18px;
+  gap: 0px;
+
+  font-family: HK Grotesk;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18.24px;
+  color: #ffffff;
+  text-align: center;
+}
+.try-again-button {
+  width: 95px;
+  height: 32px;
+  padding: 4px 16px 4px 16px;
+  gap: 8px;
+  border: 0px;
+  border-radius: 4px;
+  opacity: 0px;
+  cursor: pointer;
+}
+.failure-image {
+  width: 48px;
+  height: 48px;
+}
+
+@media (max-width: 560px) {
+  .failure-container {
+    width: 251px;
+    height: 130px;
+  }
+  .error-icon-container {
+    width: 24px;
+    height: 24px;
+  }
+  .error-icon {
+    width: 22px;
+    height: 19px;
+  }
+  .error-text {
+    width: 251px;
+    height: 16px;
+
+    font-size: 12px;
+  }
+  .try-again-button {
+    width: 78px;
+    height: 28px;
+    font-size: 12px;
+    padding: 0px;
+  }
+}

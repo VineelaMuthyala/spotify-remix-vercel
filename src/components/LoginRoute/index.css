@@ -1,0 +1,197 @@
+.login-page-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://assets.aboutamazon.com/dims4/default/16a8439/2147483647/strip/true/crop/1066x600+67+0/resize/1320x743!/format/webp/quality/90/?url=https%3A%2F%2Famazon-blogs-brightspot.s3.amazonaws.com%2F6e%2F65%2F8beecded4f798e2d6d77c650b27b%2Frday-movie-poster.jpg');
+  background-size: cover;
+}
+.login-details-container {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 456px;
+  height: 433px;
+  top: 296px;
+  left: 492px;
+  gap: 12px;
+  border-radius: 12px;
+}
+.logo-heading-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 196px;
+  height: 123.14px;
+}
+.spotify-logo {
+  width: 148px;
+  height: 63.87px;
+  padding: 1.21px 0px 2.06px 0px;
+}
+.spotify-heading {
+  width: 196px;
+  height: 43.27px;
+  font-family: Assistant;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 41.86px;
+  text-align: center;
+  color: #ffffff;
+  margin: 0px;
+}
+.form-container {
+  width: 408px;
+  height: 236px;
+  gap: 24px;
+  display: flex;
+  flex-direction: column;
+}
+.inputs {
+  display: flex;
+  flex-direction: column;
+  width: 408px;
+  height: 164px;
+  gap: 16px;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+  width: 408px;
+  height: 76px;
+  gap: 8px;
+}
+.label {
+  width: 72px;
+  height: 16px;
+  gap: 0px;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0.05em;
+  text-align: left;
+  color: #ffffff;
+}
+.input-text {
+  width: 404px;
+  height: 52px;
+  top: 2px;
+  left: 2px;
+  gap: 0px;
+  border-radius: 4px;
+  padding-left: 10px;
+  border: 1px solid #d9d9d9;
+}
+.button-container {
+  display: flex;
+  flex-direction: column;
+  width: 408px;
+  height: 48px;
+  gap: 16px;
+  border-radius: 4px;
+}
+.login-button {
+  width: 408px;
+  height: 48px;
+  padding: 12px 32px 12px 32px;
+  gap: 8px;
+  border-radius: 8px;
+
+  background: #1db954;
+  font-family: Assistant;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.error-msg {
+  color: red;
+}
+
+@media (max-width: 560px) {
+  .login-page-container {
+    width: 100vw;
+    height: 100vh;
+  }
+  .logo-heading-container {
+    width: 196px;
+    height: 102px;
+  }
+  .spotify-logo {
+    width: 101px;
+    height: 42px;
+  }
+  .spotify-heading {
+    font-size: 28px;
+    line-height: 36.6px;
+  }
+  .form-container {
+    display: flex;
+    align-items: center;
+    width: 201px;
+    height: 148px;
+  }
+  .inputs {
+    width: 201px;
+    height: 100px;
+  }
+  .input-container {
+    width: 201px;
+    height: 48px;
+    gap: 4px;
+  }
+  .label {
+    font-size: 10px;
+    width: 57px;
+    height: 16px;
+  }
+  .input-text {
+    font-size: 10px;
+    width: 201px;
+    height: 28px;
+  }
+  .button-container {
+    padding: 12px 24px 12px 24px;
+    width: 93px;
+    height: 40px;
+    border-radius: 8px;
+    gap: 8px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .login-button {
+    padding: 12px 24px 12px 24px;
+    width: 93px;
+    height: 35px;
+    font-size: 14px;
+    font-weight: 700;
+    border: 0px;
+  }
+  .error-msg {
+    color: red;
+  }
+
+  .login-details-container {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 296px;
+    height: 337px;
+    border-radius: 8px;
+  }
+}
